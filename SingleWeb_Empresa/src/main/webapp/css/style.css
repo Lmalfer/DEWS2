@@ -1,0 +1,175 @@
+/* style.css */
+
+/* Reset de estilos */
+body, h1, h2, h3, p, ul, ol, li, table, tr, td, input, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos generales */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #FF6F61;
+}
+
+/* Sección de bienvenida */
+.welcome-section {
+    background-color: darkseagreen;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.welcome-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 20px;
+}
+
+/* Estilos del formulario editar empleado */
+form {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+form table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form table tr {
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #FF6F61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #FF504D;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para las páginas de confirmación */
+.standard {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.standard h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.styled-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.rowlistar {
+    margin-top: 20px;
+}
+
+.list {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la tabla de listaempleados.jsp */
+.menu-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.menu-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.menu-container th, .menu-container td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.menu-container th {
+    background-color: #FF6F61;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.menu-container tr:hover {
+    background-color: #ddd;
+}
+
+.menu-container input[type="submit"] {
+    background-color: #FF6F61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-container input[type="submit"]:hover {
+    background-color: #FF504D;
+}
